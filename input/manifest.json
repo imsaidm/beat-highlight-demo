@@ -1,0 +1,82 @@
+{
+  "title": "RIVERSIDE HAWKS",
+  "subtitle": "2026 Season Highlights",
+  "style": "hype",
+  "format": "vertical",
+  "targetDuration": 30,
+  "music": "media/music.wav",
+  "clips": [
+    {
+      "id": "dunk-23",
+      "file": "media/clips/dunk-23.mp4",
+      "player": "#23 J. Carter",
+      "event": "dunk",
+      "importance": 5
+    },
+    {
+      "id": "three-11",
+      "file": "media/clips/three-11.mp4",
+      "player": "#11 M. Reyes",
+      "event": "three",
+      "importance": 4
+    },
+    {
+      "id": "block-34",
+      "file": "media/clips/block-34.mp4",
+      "player": "#34 D. Okafor",
+      "event": "block",
+      "importance": 4
+    },
+    {
+      "id": "assist-3",
+      "file": "media/clips/assist-3.mp4",
+      "player": "#3 K. Lin",
+      "event": "assist",
+      "importance": 3
+    },
+    {
+      "id": "steal-7",
+      "file": "media/clips/steal-7.mp4",
+      "player": "#7 T. Brooks",
+      "event": "steal",
+      "importance": 3
+    },
+    {
+      "id": "alleyoop-23",
+      "file": "media/clips/alleyoop-23.mp4",
+      "player": "#23 J. Carter",
+      "event": "alley-oop",
+      "importance": 5
+    },
+    {
+      "id": "layup-5",
+      "file": "media/clips/layup-5.mp4",
+      "player": "#5 A. Diaz",
+      "event": "layup",
+      "importance": 2
+    },
+    {
+      "id": "crossover-11",
+      "file": "media/clips/crossover-11.mp4",
+      "player": "#11 M. Reyes",
+      "event": "crossover",
+      "importance": 3
+    },
+    {
+      "id": "fastbreak-7",
+      "file": "media/clips/fastbreak-7.mp4",
+      "player": "#7 T. Brooks",
+      "event": "fastbreak",
+      "importance": 2,
+      "inPoint": 2,
+      "outPoint": 7
+    },
+    {
+      "id": "winner-11",
+      "file": "media/clips/winner-11.mp4",
+      "player": "#11 M. Reyes",
+      "event": "winner",
+      "importance": 5
+    }
+  ]
+}

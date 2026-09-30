@@ -1,0 +1,33 @@
+{
+  "name": "beat-highlight-demo",
+  "version": "1.0.0",
+  "description": "Deterministic beat-synced sports highlight generator: manifest -> beat analysis -> timeline solver -> Remotion render -> automated QA.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "samples": "tsx scripts/make-samples.ts",
+    "make": "tsx src/cli/make.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.530",
+    "@remotion/renderer": "^4.0.530",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.530",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
+}

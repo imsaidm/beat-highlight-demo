@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "file": "highlight-vertical.mp4",
+  "checks": [
+    {
+      "name": "duration",
+      "passed": true,
+      "expected": "30s ±0.5s",
+      "actual": "30.059s"
+    },
+    {
+      "name": "frame-accurate-duration",
+      "passed": true,
+      "expected": "900 frames (30.000s) ±2 frames",
+      "actual": "30.000s"
+    },
+    {
+      "name": "av-sync",
+      "passed": true,
+      "expected": "|audio - video| <= 0.1s",
+      "actual": "audio 30.059s vs video 30.000s"
+    },
+    {
+      "name": "resolution",
+      "passed": true,
+      "expected": "1080x1920",
+      "actual": "1080x1920"
+    },
+    {
+      "name": "fps",
+      "passed": true,
+      "expected": "30",
+      "actual": "30.000"
+    },
+    {
+      "name": "audio-stream",
+      "passed": true,
+      "expected": "present",
+      "actual": "present"
+    },
+    {
+      "name": "no-black-segments",
+      "passed": true,
+      "expected": "no black >= 0.5s",
+      "actual": "none"
+    },
+    {
+      "name": "integrated-loudness",
+      "passed": true,
+      "expected": "-14 ±2 LUFS",
+      "actual": "-14.1 LUFS"
+    },
+    {
+      "name": "true-peak",
+      "passed": true,
+      "expected": "<= -1 dBTP",
+      "actual": "-1.6 dBTP"
+    }
+  ],
+  "measurements": {
+    "duration": 30.058667,
+    "videoDuration": 30,
+    "audioDuration": 30.058667,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "hasAudio": true,
+    "black": [],
+    "loudness": {
+      "integrated": -14.1,
+      "lra": 6,
+      "truePeak": -1.6
+    }
+  },
+  "thresholds": {
+    "durationToleranceSec": 0.5,
+    "loudnessTargetLufs": -14,
+    "loudnessToleranceLu": 2,
+    "maxTruePeakDbtp": -1,
+    "blackMinDurationSec": 0.5,
+    "frameToleranceFrames": 2,
+    "avSyncToleranceSec": 0.1
+  },
+  "manifestWarnings": [],
+  "timingsMs": {
+    "1. validate manifest": 6,
+    "2. probe + normalise": 7563,
+    "3. beat analysis": 574,
+    "4. editorial plan + timeline solve": 18,
+    "5. render (Remotion)": 70267,
+    "6. automated QA": 1205
+  }
+}
